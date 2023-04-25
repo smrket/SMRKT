@@ -8,14 +8,14 @@
 
 	<Sitename />
 
-	<Header />
+	<!-- <Header /> -->
 
 	<main>
 		<slot />
 	</main>
 
 	<footer>
-		<p>visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to learn SvelteKit</p>
+		<p>  WELCOME TO SMRT MRKT ©  </p>
 	</footer>
 </div>
 
@@ -42,16 +42,21 @@
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-		padding: 12px;
-	}
-
-	footer a {
+		padding: 0 12px;
+		color: whitesmoke;
+		font-size: 15px ;
 		font-weight: bold;
+		font-family: serif;
+		border-top: 5px solid #c3d214;
 	}
 
-	@media (min-width: 480px) {
+	/* footer a {
+		font-weight: bold;
+	} */
+
+	/* @media (min-width: 480px) {
 		footer {
-			padding: 12px 0;
+			padding: 12px 0 ;
 		}
-	}
+	} */
 </style>
