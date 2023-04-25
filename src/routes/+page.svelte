@@ -5,8 +5,8 @@
 </script>
 
 <svelte:head>
-	<title>Home</title>
-	<meta name="description" content="Svelte demo app" />
+	<title>SMRT MRKT</title>
+	<meta name="description" content="Smrkt app" />
 </svelte:head>
 
 <section>

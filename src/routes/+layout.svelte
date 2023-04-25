@@ -1,9 +1,13 @@
 <script>
+	import Sitename from './Sitename.svelte';
 	import Header from './Header.svelte';
 	import './styles.css';
 </script>
 
 <div class="app">
+
+	<Sitename />
+
 	<Header />
 
 	<main>
