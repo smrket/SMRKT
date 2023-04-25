@@ -47,16 +47,17 @@
 		font-size: 15px ;
 		font-weight: bold;
 		font-family: serif;
-		border-top: 5px solid #c3d214;
+		border-top: 3px solid #c3d214;
 	}
 
 	/* footer a {
 		font-weight: bold;
 	} */
 
-	/* @media (min-width: 480px) {
+	@media (min-width: 700px) {
 		footer {
-			padding: 12px 0 ;
+			font-size: 20px;
 		}
-	} */
+
+	}
 </style>

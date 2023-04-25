@@ -27,7 +27,7 @@
   justify-content: center;
   align-items: center;
   
-  border-bottom: 5px solid #c3d214;
+  border-bottom: 3px solid #c3d214;
   min-height: 50px;
   }
 
@@ -55,4 +55,11 @@
     transform: rotateY(360deg) 
   }
 }
+
+@media (min-width: 700px) {
+  .waviy span {
+  font-size: 35px;
+}
+		
+	}
 </style>
