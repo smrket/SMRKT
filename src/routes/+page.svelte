@@ -5,7 +5,7 @@
 </script>
 
 <svelte:head>
-	<title>SMRT MRKT</title>
+	<title>SMRT MRKT السوق الذكية</title>
 	<meta name="description" content="Smrkt app" />
 </svelte:head>
 
