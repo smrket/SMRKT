@@ -2,6 +2,8 @@
 	import Counter from './Counter.svelte';
 	import welcome from '$lib/images/svelte-welcome.webp';
 	import welcome_fallback from '$lib/images/svelte-welcome.png';
+
+	import Ad from './Ad.svelte';
 </script>
 
 <svelte:head>
@@ -10,6 +12,14 @@
 </svelte:head>
 
 <section>
+	
+
+	<h1>#Simple Life</h1>
+	
+	<div class="pub">
+		<Ad />
+	</div>
+
 	<!-- <h1>
 		<span class="welcome">
 			<picture>
@@ -26,8 +36,6 @@
 	</h2>
 
 	<Counter /> -->
-
-	<h1>#Simple Life</h1>
 </section>
 
 <style>

@@ -1,10 +1,21 @@
+<script>
+import Ad from "../Ad.svelte";
+</script>
+
 <svelte:head>
 	<title>السوق الذكية حياة بسيطة</title>
 	<meta name="description" content="SMRKT Arabic" />
 </svelte:head>
 
 <div class="text-column" style="font-family: 'Almarai', sans-serif;" dir="rtl">
+	
 	<h1>#حياة بسيطة</h1>
+	
+	<div class="pub">
+		<Ad />
+	</div>
+
+	
 
 	<!-- <p>
 		This is a <a href="https://kit.svelte.dev">SvelteKit</a> app. You can make your own by typing the
