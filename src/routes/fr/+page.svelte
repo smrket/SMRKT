@@ -11,6 +11,7 @@ import Ad2 from "../Ad2.svelte";
 <div class="pub">
 		<Ad2 />
 	</div>
+	
 <div class="text-column">
 
 	<!-- <p>
