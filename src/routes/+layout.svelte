@@ -8,7 +8,7 @@
 
 	<Sitename />
 
-	<!-- <Header /> -->
+	<Header />
 
 	<main>
 		<slot />
@@ -44,7 +44,7 @@
 		align-items: center;
 		/* padding: 0 12px; */
 		background: black;
-		color: whitesmoke;
+		color: lawngreen;
 		font-size: 15px ;
 		font-weight: bold;
 		font-family: serif;

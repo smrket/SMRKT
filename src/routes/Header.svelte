@@ -1,13 +1,27 @@
 <script>
 	import { page } from '$app/stores';
-	import logo from '$lib/images/svelte-logo.svg';
-	import github from '$lib/images/github.svg';
+	import fb from '$lib/images/f128.png';
+	import tw from '$lib/images/t128.png';
+	import { onMount } from 'svelte';
+
+	let isSticky = false;
+  	function handleScroll() {
+    isSticky = window.pageYOffset > 0;
+  	}
+  	onMount(() => {
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  	});
+
 </script>
 
+<div class:sticky={isSticky} style="z-index: 10;">
 <header>
 	<div class="corner">
-		<a href="https://kit.svelte.dev">
-			<img src={logo} alt="SvelteKit" />
+		<a href="https://www.facebook.com/smrtmrket" target="_blank" rel="noreferrer">
+			<img src={fb} alt="Logofb" />
 		</a>
 	</div>
 
@@ -17,13 +31,13 @@
 		</svg>
 		<ul>
 			<li aria-current={$page.url.pathname === '/' ? 'page' : undefined}>
-				<a href="/">Home</a>
+				<a href="/">English</a>
 			</li>
 			<li aria-current={$page.url.pathname === '/about' ? 'page' : undefined}>
-				<a href="/about">About</a>
+				<a href="/about">French</a>
 			</li>
 			<li aria-current={$page.url.pathname.startsWith('/sverdle') ? 'page' : undefined}>
-				<a href="/sverdle">Sverdle</a>
+				<a href="/sverdle">Arabic</a>
 			</li>
 		</ul>
 		<svg viewBox="0 0 2 3" aria-hidden="true">
@@ -32,16 +46,27 @@
 	</nav>
 
 	<div class="corner">
-		<a href="https://github.com/sveltejs/kit">
-			<img src={github} alt="GitHub" />
+		<a href="https://twitter.com/SmrtMrket" target="_blank" rel="noreferrer">
+			<img src={tw} alt="Logotw" />
 		</a>
 	</div>
 </header>
+</div>
 
 <style>
+	.sticky {
+    	position: sticky;
+    	top: 0;
+		
+    	/* background-color: #006400; */
+    	/* padding: 10px; */
+    	/* border-bottom: 5px solid #006400; */
+  	}
+
 	header {
 		display: flex;
 		justify-content: space-between;
+		
 	}
 
 	.corner {
@@ -55,6 +80,8 @@
 		justify-content: center;
 		width: 100%;
 		height: 100%;
+		
+		
 	}
 
 	.corner img {
@@ -66,7 +93,9 @@
 	nav {
 		display: flex;
 		justify-content: center;
-		--background: rgba(255, 255, 255, 0.7);
+		/* --background: rgba(255, 255, 255, 0.7); */
+		--background: black;
+		
 	}
 
 	svg {
@@ -95,6 +124,7 @@
 	li {
 		position: relative;
 		height: 100%;
+		
 	}
 
 	li[aria-current='page']::before {
@@ -114,7 +144,8 @@
 		height: 100%;
 		align-items: center;
 		padding: 0 0.5rem;
-		color: var(--color-text);
+		/* color: var(--color-text); */
+		color: #c3d214;
 		font-weight: 700;
 		font-size: 0.8rem;
 		text-transform: uppercase;
