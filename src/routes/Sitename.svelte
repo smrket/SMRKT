@@ -22,7 +22,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
 
 #loading {
-  /* background-color: #1f1f2b; */
+  background-color: black;
   display: flex;
   justify-content: center;
   align-items: center;

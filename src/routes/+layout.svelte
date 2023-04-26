@@ -42,7 +42,8 @@
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-		padding: 0 12px;
+		/* padding: 0 12px; */
+		background: black;
 		color: whitesmoke;
 		font-size: 15px ;
 		font-weight: bold;
