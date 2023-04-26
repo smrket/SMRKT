@@ -5,12 +5,12 @@
 </script>
 
 <svelte:head>
-	<title>SMRT MRKT السوق الذكية</title>
-	<meta name="description" content="Smrkt app" />
+	<title>SMRT MRKT Simple Life</title>
+	<meta name="description" content="SMRKT APP" />
 </svelte:head>
 
-<!-- <section>
-	<h1>
+<section>
+	<!-- <h1>
 		<span class="welcome">
 			<picture>
 				<source srcset={welcome} type="image/webp" />
@@ -25,8 +25,10 @@
 		try editing <strong>src/routes/+page.svelte</strong>
 	</h2>
 
-	<Counter />
-</section> -->
+	<Counter /> -->
+
+	<h1>#Simple Life</h1>
+</section>
 
 <style>
 	section {
