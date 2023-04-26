@@ -35,7 +35,9 @@ body {
 }
 
 .pub {
-	margin: 2px auto;
+	margin: 2px;
+	justify-content: center;
+	align-items: center;
 }
 
 h1,
