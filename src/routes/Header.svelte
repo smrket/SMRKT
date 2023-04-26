@@ -33,11 +33,11 @@
 			<li aria-current={$page.url.pathname === '/' ? 'page' : undefined}>
 				<a href="/">English</a>
 			</li>
-			<li aria-current={$page.url.pathname === '/about' ? 'page' : undefined}>
-				<a href="/about">French</a>
+			<li aria-current={$page.url.pathname === '/fr' ? 'page' : undefined}>
+				<a href="/fr">French</a>
 			</li>
-			<li aria-current={$page.url.pathname.startsWith('/sverdle') ? 'page' : undefined}>
-				<a href="/sverdle">Arabic</a>
+			<li aria-current={$page.url.pathname.startsWith('/ar') ? 'page' : undefined}>
+				<a href="/ar">Arabic</a>
 			</li>
 		</ul>
 		<svg viewBox="0 0 2 3" aria-hidden="true">
