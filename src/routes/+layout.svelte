@@ -20,6 +20,8 @@
 </div>
 
 <style>
+	@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif&display=swap');
+
 	.app {
 		display: flex;
 		flex-direction: column;
@@ -35,6 +37,7 @@
 		max-width: 64rem;
 		margin: 0 auto;
 		box-sizing: border-box;
+		font-family: 'Instrument Serif', serif;
 	}
 
 	footer {
@@ -47,7 +50,7 @@
 		color: #c3d214;
 		font-size: 15px ;
 		font-weight: bold;
-		font-family: serif;
+		font-family: fantasy;
 		border-top: 3px solid #c3d214;
 	}
 

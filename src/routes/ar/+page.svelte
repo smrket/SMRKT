@@ -3,7 +3,7 @@
 	<meta name="description" content="SMRKT Arabic" />
 </svelte:head>
 
-<div class="text-column" dir="rtl">
+<div class="text-column" style="font-family: 'Almarai', sans-serif;" dir="rtl">
 	<h1>#حياة بسيطة</h1>
 
 	<!-- <p>
@@ -24,3 +24,8 @@
 		using it with JavaScript disabled!
 	</p> -->
 </div>
+
+<style>
+	@import url('https://fonts.googleapis.com/css2?family=Almarai&display=swap');
+
+</style>
