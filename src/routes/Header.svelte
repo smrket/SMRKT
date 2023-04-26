@@ -157,6 +157,6 @@
 
 	a:hover {
 		/* color: var(--color-theme-1); */
-		color: white;
+		color: #ff3e00;
 	}
 </style>

@@ -44,7 +44,7 @@
 		align-items: center;
 		/* padding: 0 12px; */
 		background: black;
-		color: lawngreen;
+		color: #c3d214;
 		font-size: 15px ;
 		font-weight: bold;
 		font-family: serif;
