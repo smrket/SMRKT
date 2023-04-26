@@ -1,5 +1,5 @@
 <svelte:head>
-	<title>SMRT MRKt Vie Simple</title>
+	<title>SMRT MRKT Vie Simple</title>
 	<meta name="description" content="SMRKT French" />
 </svelte:head>
 
