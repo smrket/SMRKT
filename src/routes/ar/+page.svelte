@@ -7,16 +7,14 @@ import Ad3 from "../Ad3.svelte";
 	<meta name="description" content="SMRKT Arabic" />
 </svelte:head>
 
+<h1 style="font-family: 'Almarai', sans-serif;" dir="rtl">#حياة بسيطة</h1>
+	
+<div class="pub">
+	<Ad3 />
+</div>
+
 <div class="text-column" style="font-family: 'Almarai', sans-serif;" dir="rtl">
 	
-	<h1>#حياة بسيطة</h1>
-	
-	<div class="pub">
-		<Ad3 />
-	</div>
-
-	
-
 	<!-- <p>
 		This is a <a href="https://kit.svelte.dev">SvelteKit</a> app. You can make your own by typing the
 		following into your command line and following the prompts:
@@ -38,5 +36,6 @@ import Ad3 from "../Ad3.svelte";
 
 <style>
 	@import url('https://fonts.googleapis.com/css2?family=Almarai&display=swap');
+	
 
 </style>
