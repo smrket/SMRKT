@@ -1,5 +1,5 @@
 <script>
-import Ad from "../Ad.svelte";
+import Ad3 from "../Ad3.svelte";
 </script>
 
 <svelte:head>
@@ -12,7 +12,7 @@ import Ad from "../Ad.svelte";
 	<h1>#حياة بسيطة</h1>
 	
 	<div class="pub">
-		<Ad />
+		<Ad3 />
 	</div>
 
 	
