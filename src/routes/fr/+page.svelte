@@ -7,13 +7,15 @@ import Ad2 from "../Ad2.svelte";
 	<meta name="description" content="SMRKT French" />
 </svelte:head>
 
-<div class="text-column">
-
-	<h1>#Vie Simple</h1>
-
-	<div class="pub">
+<h1>#Vie Simple</h1>
+<div class="pub">
 		<Ad2 />
 	</div>
+<div class="text-column">
+
+	
+
+	
 
 	<!-- <p>
 		This is a <a href="https://kit.svelte.dev">SvelteKit</a> app. You can make your own by typing the
