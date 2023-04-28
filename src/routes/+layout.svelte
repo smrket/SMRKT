@@ -20,7 +20,7 @@
 </div>
 
 <style>
-	@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif&display=swap');
+	
 
 	.app {
 		display: flex;
@@ -50,7 +50,7 @@
 		color: #c3d214;
 		font-size: 15px ;
 		font-weight: bold;
-		font-family: fantasy;
+		font-family: 'Russo One', sans-serif;
 		border-top: 3px solid #c3d214;
 	}
 
@@ -61,6 +61,7 @@
 	@media (min-width: 700px) {
 		footer {
 			font-size: 20px;
+			
 		}
 
 	}
