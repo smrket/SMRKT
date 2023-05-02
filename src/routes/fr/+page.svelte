@@ -7,12 +7,20 @@
 	<meta name="description" content="SMRKT French" />
 </svelte:head>
 
-<h1>#Vie Simple</h1>
+<h1 style="font-family: 'Instrument Serif', serif;">#Vie Simple</h1>
 <!-- <div class="pub">
 		<Ad2 />
 	</div> -->
 	
+<div class="about">
+	<h2>A propos de nous</h2>
+	<p>Smrt Mrkt est une entreprise émergente.
+		Spécialisé dans le domaine des services de médias et de la technologie moderne.</p>
+</div>
+
 <div class="text-column">
+
+	
 
 	<!-- <p>
 		This is a <a href="https://kit.svelte.dev">SvelteKit</a> app. You can make your own by typing the

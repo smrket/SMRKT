@@ -14,7 +14,14 @@
 <section>
 	
 
-	<h1>#Simple Life</h1>
+	<h1 style="font-family: 'Instrument Serif', serif;">#Simple Life</h1>
+	
+	<div class="about">
+		<h2>About Us</h2>
+		<p>Smrt Mrket is an emerging company.
+			Specialized in the field of media services and modern technology.</p>
+	</div>
+	
 	
 	<!-- <div class="pub">
 		<Ad />
@@ -45,6 +52,7 @@
 		justify-content: center;
 		align-items: center;
 		flex: 0.6;
+		
 	}
 
 	h1 {

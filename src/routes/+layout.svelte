@@ -37,7 +37,8 @@
 		max-width: 64rem;
 		margin: 0 auto;
 		box-sizing: border-box;
-		font-family: 'Instrument Serif', serif;
+		/* font-family: 'Instrument Serif', serif; */
+		font-family: 'Fira Mono', monospace;
 	}
 
 	footer {

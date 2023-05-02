@@ -7,7 +7,14 @@
 	<meta name="description" content="SMRKT Arabic" />
 </svelte:head>
 
-<h1 style="font-family: 'Almarai', sans-serif;" dir="rtl">#حياة بسيطة</h1>
+<h1 style="font-family: 'Noto Kufi Arabic', sans-serif;" dir="rtl">#حياة بسيطة</h1>
+
+<div class="about" style="font-family: 'Almarai', sans-serif;" dir="rtl">
+	<h2>معلومات عنا</h2>
+	<p>السوق الذكية هي شركة ناشئة.
+		<br />
+		مختصة في مجال الخدمات الإعلامية و التقنية الحديثة.</p>
+</div>
 	
 <!-- <div class="pub">
 	<Ad3 />
@@ -36,6 +43,7 @@
 
 <style>
 	@import url('https://fonts.googleapis.com/css2?family=Almarai&display=swap');
+	@import url('https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic&display=swap');
 	
 
 </style>
