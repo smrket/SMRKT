@@ -1,5 +1,5 @@
 <script>
-import Ad3 from "../Ad3.svelte";
+
 </script>
 
 <svelte:head>
@@ -9,9 +9,9 @@ import Ad3 from "../Ad3.svelte";
 
 <h1 style="font-family: 'Almarai', sans-serif;" dir="rtl">#حياة بسيطة</h1>
 	
-<div class="pub">
+<!-- <div class="pub">
 	<Ad3 />
-</div>
+</div> -->
 
 <div class="text-column" style="font-family: 'Almarai', sans-serif;" dir="rtl">
 	

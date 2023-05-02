@@ -3,7 +3,7 @@
 	import welcome from '$lib/images/svelte-welcome.webp';
 	import welcome_fallback from '$lib/images/svelte-welcome.png';
 
-	import Ad from './Ad.svelte';
+	
 </script>
 
 <svelte:head>
@@ -16,9 +16,9 @@
 
 	<h1>#Simple Life</h1>
 	
-	<div class="pub">
+	<!-- <div class="pub">
 		<Ad />
-	</div>
+	</div> -->
 
 	<!-- <h1>
 		<span class="welcome">

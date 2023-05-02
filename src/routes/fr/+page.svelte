@@ -1,5 +1,5 @@
 <script>
-import Ad2 from "../Ad2.svelte";
+
 </script>
 
 <svelte:head>
@@ -8,9 +8,9 @@ import Ad2 from "../Ad2.svelte";
 </svelte:head>
 
 <h1>#Vie Simple</h1>
-<div class="pub">
+<!-- <div class="pub">
 		<Ad2 />
-	</div>
+	</div> -->
 	
 <div class="text-column">
 
