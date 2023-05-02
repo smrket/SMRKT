@@ -7,10 +7,10 @@
 	<meta name="description" content="SMRKT Arabic" />
 </svelte:head>
 
-<section>
-	<h1 style="font-family: 'Noto Kufi Arabic', sans-serif;background:black;border-radius:20px;font-size:23px" dir="rtl">#حياة بسيطة#</h1>
+<section style="font-family: 'Almarai', sans-serif;padding-top:9px" dir="rtl">
+	<h1 style="font-family: 'Noto Kufi Arabic', sans-serif;background:black;border-radius:20px;font-size:22px" dir="rtl">#حياة بسيطة#</h1>
 
-	<div class="about" style="font-family: 'Almarai', sans-serif;" dir="rtl">
+	<div class="about">
 		<h2>معلومات عنا</h2>
 		<p>السوق الذكية هي شركة ناشئة.
 		<br />مختصة في مجال الخدمات الإعلامية و التقنية الحديثة.</p>
@@ -65,5 +65,9 @@
 		width: 100%;
 		
 	}
+	p{
+		font-size: 18px;
+	}
+
 
 </style>

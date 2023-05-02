@@ -18,7 +18,7 @@
 	
 	<div class="about">
 		<h2>About Us</h2>
-		<p>Smrt Mrket is an emerging company.
+		<p>Smrt Mrkt is an emerging company.
 		<br />Specialized in the field of media services and modern technology.</p>
 	</div>
 
