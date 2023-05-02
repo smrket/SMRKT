@@ -7,16 +7,23 @@
 	<meta name="description" content="SMRKT French" />
 </svelte:head>
 
-<h1 style="font-family: 'Instrument Serif', serif;">#Vie Simple</h1>
+
+<section>
+	<h1 style="font-family: 'Instrument Serif', serif;background:black;border-radius:20px;">#Vie Simple#</h1>
 <!-- <div class="pub">
 		<Ad2 />
 	</div> -->
 	
-<div class="about">
-	<h2>A propos de nous</h2>
-	<p>Smrt Mrkt est une entreprise émergente.
-		Spécialisé dans le domaine des services de médias et de la technologie moderne.</p>
-</div>
+	<div class="about">
+		<h2>A propos de nous</h2>
+		<p>Smrt Mrkt est une entreprise émergente.
+		<br>Spécialisé dans le domaine des services de médias et de la technologie moderne.</p>
+	
+	</div>
+	<hr />
+</section>
+
+
 
 <div class="text-column">
 
@@ -41,3 +48,21 @@
 	</p> -->
 
 </div>
+
+<style>
+	section {
+		display: flex;
+		flex-direction: column;
+		/* justify-content: center; */
+		align-items: center;
+		flex: 0.6;
+	}
+	
+	h1 {
+		width: 100%;
+	}
+
+	hr {
+		width: 100%;
+	}
+</style>

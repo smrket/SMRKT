@@ -36,6 +36,11 @@ body {
 
 }
 
+.about h2{
+	font-weight: bold;
+	color: #c3d214;
+}
+
 .pub {
 	padding: 2px;
 }
