@@ -16,18 +16,7 @@
 
 	<h1 style="font-family: 'Instrument Serif', serif; background:black;border-radius:20px;">#Simple Life#</h1>
 
-	<div>
-		<script type="text/javascript">
-			atOptions = {
-				'key' : '335d653ba578ec200fc17452959f2264',
-				'format' : 'iframe',
-				'height' : 250,
-				'width' : 300,
-				'params' : {}
-			};
-			document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://www.profitabledisplaynetwork.com/335d653ba578ec200fc17452959f2264/invoke.js"></scr' + 'ipt>');
-		</script>
-	</div>
+	
 	
 	<div class="about">
 		<h2>About Us</h2>
