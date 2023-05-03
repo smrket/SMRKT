@@ -19,8 +19,18 @@
 		<p>Smrt Mrkt est une entreprise émergente.
 		<br>Spécialisé dans le domaine des services de médias et de la technologie moderne.</p>
 	
+		<hr />
+
+		<br />
+		<h2>Nos services</h2>
+		<ul>
+			<li>Paiement de factures.</li>
+			<li>Transfert d'argent.</li>
+			<li>Recharge téléphonique.</li>
+		</ul>
+		<hr />
 	</div>
-	<hr />
+	
 </section>
 
 

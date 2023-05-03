@@ -20,9 +20,21 @@
 		<h2>About Us</h2>
 		<p>Smrt Mrkt is an emerging company.
 		<br />Specialized in the field of media services and modern technology.</p>
+		
+		<hr />
+		
+		<br />
+		<h2>Our Services</h2>
+		<ul>
+			<li>Payment of bills.</li>
+			<li>Money transfer.</li>
+			<li>Phone refill.</li>
+		</ul>
+		<hr />
+
 	</div>
 
-	<hr />
+	
 	
 	
 	<!-- <div class="pub">
