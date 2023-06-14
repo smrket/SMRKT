@@ -21,7 +21,7 @@
 	
 		<hr />
 
-		<br />
+		
 		<h2>Nos Services:</h2>
 		<ul>
 			<li>Paiement de factures.</li>

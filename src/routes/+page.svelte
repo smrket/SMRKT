@@ -25,7 +25,6 @@
 		
 		<hr />
 		
-		<br />
 		<h2>Our Services:</h2>
 		<ul>
 			<li>Payment Of Bills.</li>
