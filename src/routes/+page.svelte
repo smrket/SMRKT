@@ -26,11 +26,19 @@
 		<hr />
 		
 		<br />
-		<h2>Our Services</h2>
+		<h2>Our Services:</h2>
 		<ul>
-			<li>Payment of bills.</li>
-			<li>Money transfer.</li>
-			<li>Phone refill.</li>
+			<li>Payment Of Bills.</li>
+			<li>Money Transfer.</li>
+			<li>Phone Refill.</li>
+		</ul>
+		<hr />
+
+		<h2>Features:</h2>
+		<ul>
+			<li>Managing Social Media Pages.</li>
+			<li>Creation Of Website Application.</li>
+			<li>Creation Of Advertisements.</li>
 		</ul>
 		<hr />
 

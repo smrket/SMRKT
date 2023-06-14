@@ -22,11 +22,19 @@
 		<hr />
 
 		<br />
-		<h2>Nos services</h2>
+		<h2>Nos Services:</h2>
 		<ul>
 			<li>Paiement de factures.</li>
 			<li>Transfert d'argent.</li>
 			<li>Recharge téléphonique.</li>
+		</ul>
+		<hr />
+
+		<h2>Fonctionnalités:</h2>
+		<ul>
+			<li>Gestion des pages de médias sociaux.</li>
+			<li>Création d'application de site Web.</li>
+			<li>Création d'annonces.</li>
 		</ul>
 		<hr />
 	</div>
